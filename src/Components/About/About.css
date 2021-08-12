@@ -1,0 +1,118 @@
+.aboutContMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #565656ff;
+}
+
+.AboutPage::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.AboutPage {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.aboutContMain {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutCard {
+  width: 85%;
+  max-width: 1050px;
+  height: 60%;
+  background-color: white;
+  border-radius: 25px;
+  -moz-box-shadow: 0px 3px 4px -1px lightgray;
+  -webkit-box-shadow: 0px 3px 4px -1px lightgray;
+  box-shadow: 0px 3px 4px -1px lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameCont {
+  width: fit-content;
+  background-color: #ebf5fdff;
+  margin: 30px;
+  border-radius: 12px;
+}
+
+.myName {
+  color: #309effff;
+  margin: 0px;
+  padding:15px 25px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.constructionCont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.constructionTape {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffeca7ff;
+  margin-bottom: 10%;
+}
+
+
+@media (max-width: 1000px) {
+
+  .aboutCard {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nameCont {
+    text-align: center;
+  }
+
+  .myName {
+
+  }
+
+  .constructionCont {
+
+  }
+
+  .underConstruction {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .aboutCard {
+    width: 100%;
+    min-width: 300px;
+    max-width: 350px;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 30px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+}

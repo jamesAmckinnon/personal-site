@@ -1,0 +1,306 @@
+.timelineContMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #565656ff;
+    z-Index: -10;
+  
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .5s;
+}
+
+.timelineCont {
+  width: 90%;
+  height: auto;
+  top: 30px;
+  position: absolute;
+}
+
+.timeline {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vl {
+  border-left: 10px solid #ebebebff;
+  position: fixed;
+  z-index: -10;
+  height: 100%;
+  top: 0;
+}
+
+.numberCircle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 21.6px;
+  border: 4px solid #3498db;
+  color:white;
+  background:white;
+  top: -20px;
+  /* transform: translateX(-50%) ttt*/
+
+}
+
+.circleCont {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.blankSpace {
+  height: 100%;
+  width: calc(50% - 17px);
+  background-color: transparent;
+}
+
+.milestoneCont {
+  background-color: transparent;
+  width: calc(50% - 67px);
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.milestoneContLeft {
+  background-color: transparent;
+  width: calc(50% - 67px);
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.milestoneCard {
+  height: fit-content;
+  width: 275px; 
+  background-color: white;
+  border-radius: 12px;
+  border: #ebebebff 5px solid;
+}
+
+.milestoneRowRight {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.milestoneRowLeft {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cardAttachmentCont {
+  width: 50px;
+  height: 100%;
+}
+
+.lineCont {
+  border-top: 6px solid #ebebebff;
+  z-index: 10;
+  position: relative;
+  top: calc(50% - 3px);
+  left: 0;
+}
+
+.cardInfoCont {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitleCont {
+  width: 233px;
+  height: fit-content;
+  padding: 4px 6px;
+  margin: 15px 15px 0px 15px;
+  border-radius: 6px;
+  background-color: #ebf5fdff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardTitle {
+  color: #309effff;
+  font-family: 'Didact Gothic';
+  font-weight: 200;
+  font-size: 17px;
+  margin: 0px;
+  line-height: 17px;
+}
+
+.cardDateCont {
+  width: fit-content;
+  height: fit-content;
+}
+
+.cardDateContLeft {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardDate {
+  color: #3a3a3aff;
+  font-size: 14px;
+  margin: 10px 17px 15px 17px;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+@media (max-width: 1180px) {
+
+  .timeline {
+    width: 100%;
+    padding-right: 24px;
+  }
+
+  .milestoneRowLeft {
+    justify-content: flex-end;
+  }
+
+  .milestoneRowRight {
+    flex-direction: row-reverse;
+    justify-content: right;
+  }
+
+  .milestoneCont {
+    width: 285px;
+    min-width: 285px;
+    z-index: 20;
+  }
+  .milestoneContLeft{
+    width: 285px;
+    min-width: 285px;
+  }
+
+  .vl {
+    right: 40px;
+  }
+
+  .blankSpace {
+    display: none;
+  }
+
+  .cardDateCont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 760px) {
+  .vl {
+    display: none;
+  }
+
+  .timeline {
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 110px;
+  }
+
+  .timelineTitle {
+    font-size: 13px;
+  }
+
+  .milestoneCont {
+    width: 100%;
+    z-index: 0;
+    justify-content: center;
+  }
+
+  .milestoneContLeft {
+    width: 100%;
+    z-index: 0;
+    justify-content: center;
+  }
+
+  .milestoneCard {
+    width: calc(85% + 20px);
+    min-width: 300px;
+    max-width: 400px;
+    border: #ebebebff 3px solid;
+  }
+
+  .lineCont {
+    z-index: 0;
+  }
+
+  .cardAttachmentCont {
+    display: none;
+  }
+
+  .circleCont {
+    display: none;
+  }
+
+  .milestoneRowRight {
+    justify-content: center;
+    margin: 10px 0px;
+    height: fit-content;
+  }
+
+  .milestoneRowLeft {
+    justify-content: center;
+    margin: 10px 0px;
+    height: fit-content;
+  }
+
+
+  .cardTitleCont2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardTitleCont {
+    width: 90%;
+    margin: 7px 0px 0px 0px;
+  }
+  .cardInfoCont {
+    justify-content: center;
+  }
+
+  .cardDate {
+    margin: 4px 17px 4px 17px;
+  }
+}
+

@@ -1,0 +1,772 @@
+.blockContMain {
+    width: 430px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #565656ff;
+    position: fixed;
+    display: flex;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.blockContMain::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.infoBlock {
+  width: 350px;
+  height: fit-content;
+  max-height: 87%;
+  background-color: #ebebebff;
+  border-radius: 15px;
+  z-index: 10;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  border: solid #ebebebff 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBlockCont2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.blockComponentCont {
+  overflow: hidden;
+  max-height: 100%;
+  height: 100%;
+  /* scrollbar-width: none; 
+  -ms-overflow-style: none;  */
+}
+
+/* .blockComponentCont::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+} */
+
+.blockComponent {
+  max-height: inherit;
+  height: inherit;
+}
+
+.scroll {
+  overflow-y: scroll !important;
+  padding-right: 8px !important;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color:transparent;
+	-webkit-border-radius:0;
+}
+
+::-webkit-scrollbar{
+	width:4px;
+	height:8px;
+}
+
+::-webkit-scrollbar-thumb{
+	height:50px;
+	background-color:#999;
+	-webkit-border-radius:4px;
+	outline:8px solid transparent;
+	outline-offset:-4px;
+	border: 8px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	height:50px;
+	background-color:#9f9f9f;
+	-webkit-border-radius:4px;
+}
+
+.navCont {
+  height: 10%;
+  top: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  justify-content: center;
+}
+
+.icons {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px 0px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+}
+
+.icon {
+  width: 17%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.icon:hover {
+  background-color:  #ebf5fdff !important;
+  cursor: pointer;
+}
+
+
+.schoolCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.school {
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  padding: 13px;
+}
+
+.schoolHeader {
+  width: 100%;
+  height: 60px;
+}
+
+.schoolInfo {
+  height: 50px;
+  background-color: #d7f1e2ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.schoolLogoCont {
+  width: 45%;
+  height: 100%;
+  padding-left: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.schoolTitleCont {
+  width: 55%;
+  height: 100%;
+  padding-right: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.schoolTitle {
+  width: 100%;
+  height: 27px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: #ecfbf3ff;
+  font-size: 12.5px;
+  color: #0d7a3fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noMarg {
+  margin: 0px 4px;
+}
+
+.gpa {
+  margin: 0px 4px;
+}
+.semesterInfo {
+  font-size: 14px;
+  margin: 0px;
+
+}
+
+.courses{
+  padding-top: 7px;
+  font-size: 16px;
+}
+
+.missionCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 13px;
+}
+
+.missionHeader {
+  width: 100%;
+  height: 50px;
+}
+
+.missionTitle {
+  width: fit-content;
+  padding: 5px 12px;
+  font-size: 26px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 400;
+  color: #ef2c30ff;
+  height: 30px;
+  background-color: #f4d6d6ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.missionText p {
+  font-size: 16px;
+  margin: 0px 4px;
+}
+
+.scheduleCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 10%;
+  height: 100%;
+  position: relative;
+  box-sizing:border-box;
+  /* overflow-y: scroll; */
+}
+
+.schedule {
+  width: 100%;
+  height: fit-content;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 13px;
+  overflow-y: hidden;
+}
+
+.scheduleHeader {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scheduleTitle {
+  width: fit-content;
+  padding: 5px 12px;
+  font-size: 26px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 400;
+  color: #4f4f4fff;
+  height: 30px;
+  background-color: #ffeca7ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.dateSelect {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+#date {
+  height: 40px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+
+#scheduleSlotDiv {
+  width: 100%;
+  margin: 8px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#scheduleItemCont {
+  width: 65%;
+  border-bottom: solid lightgrey 1px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#scheduleItems {
+  padding-right: 10px;
+}
+
+#scheduleItem {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+#scheduleTimeCont {
+  width: 97px;
+  display: flex;
+  justify-content: left;
+  padding-left: 8px;
+}
+
+#scheduleTime {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rightArrow2Cont {
+  display: flex;
+  width: 20px;
+  justify-items: end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rightArrow2 {
+  background: url(/images/rightArrow2.png) no-repeat 95% center;
+  background-size: 8px 16px;
+  width: 100%;
+  height: 25px;
+}
+
+.leftArrow2Cont {
+  display: flex;
+  width: 20px;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.leftArrow2 {
+  height: auto;
+  display: flex;
+  cursor: pointer;
+  background: url(/images/leftArrow2.png) no-repeat 95% center;
+  background-size: 8px 16px;
+  width: 8px;
+  height: 25px;
+}
+
+.essayContainer {
+  background-color: white;
+  height: 50px;
+  border-radius: 8px;
+  padding: 7px 8px;
+  margin: 15px 0px;
+  border-right: solid white 2px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.essayTitle{
+  color: #309effff;
+  font-family: 'Didact Gothic';
+  font-weight: 200;
+  font-size: 17px;
+  margin: 0px 5px;
+}
+/* IBM+Plex+Mono:wght@200&family=IBM+Plex+Sans */
+
+.essayDate {
+  width: fit-content;
+  color: #000000ff;
+  font-size: 13px;
+  margin: 4px 0px 0px 4px;
+  font-weight: 400;
+}
+
+#workLife {
+  margin-bottom: 0px;
+}
+
+.essayTitleCont {
+  height: 24px;
+  border-radius: 6px;
+  background-color: #ebf5fdff;
+  width: fit-content;
+}
+
+
+#writingLinks :hover h3{
+  color: #545454ff;
+  background-color: white;
+  font-weight: 500;
+  font-family: 'IBM Plex Sans';
+}
+
+#writingLinks :hover div {
+  color: #545454ff;
+  background-color: white;
+
+}
+
+.timelineContainer {
+  background-color: white;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 7px 8px;
+  margin: 15px 0px;
+  border-right: solid white 2px;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.timelineTitle{
+  color: #309effff;
+  font-family: 'Didact Gothic';
+  font-weight: 200;
+  font-size: 14px;
+  margin: 0px 5px;
+}
+
+.timelineDate {
+  width: fit-content;
+  color: #000000ff;
+  font-size: 13px;
+  margin: 4px 0px 0px 4px;
+  font-weight: 400;
+}
+
+#lastEntry {
+  margin-bottom: 0px;
+}
+
+.timelineTitleCont {
+  height: 24px;
+  border-radius: 6px;
+  background-color: #ebf5fdff;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.schoolTitleClass {
+  font-size: 14px;
+}
+
+.hide {
+  display: none;
+}
+
+.sectionTitle {
+  margin: 0px 0px 0px 10px;
+}
+
+.aboutCardCont {
+  display: none;
+}
+
+.contactCard {
+  width: 100%;
+  height: 130px;
+  border-radius: 12px;
+}
+
+.emailCont1 {
+  width: fit-content;
+  background-color: white;
+  padding: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.emailCont {
+  width: fit-content;
+  height: auto;
+  padding: 5px;
+  background-color: #ebf5fdff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #309effff;
+  font-family: 'Didact Gothic';
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+#anchorText {
+  text-decoration: none;
+  color: #309effff;
+
+}
+
+.myPhone {
+  margin: 0px;
+}
+
+.phoneCont1 {
+  width: fit-content;
+  background-color: white;
+  padding: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.phoneCont {
+  width: fit-content;
+  background-color: #ebf5fdff;
+  border-radius: 4px;
+}
+
+.myPhone {
+  padding: 5px;
+  margin: 0px;
+  color: #309effff;
+  font-family: 'Didact Gothic';
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+@media (max-width: 850px) {
+  .schoolTitleClass {
+    font-size: 13px;
+}
+
+  .schoolLogoCont {
+    width: 42%;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  .blockContMain {
+    width: 45%;
+    padding: 0px 10px;
+    }
+
+  .timelineTitleCont {
+    height: fit-content;
+  }
+
+  .essayTitle {
+    font-size: 16px;
+  }
+
+  #writingLinks :hover h3{
+    color: #545454ff;
+    background-color: white;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans';
+  }
+
+  }
+
+@media (max-width: 760px) {
+  .blockContMain {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    z-index: 20;
+    background-color: #ebebebff;
+    justify-content: center;
+  }
+
+  .infoBlockCont2 {
+
+    height: 100%;
+    padding: 0px 15px;
+    background-color: #ebebebff;
+    display: block;
+    min-width: 300px;
+    max-width: 350px;
+  }
+
+  .sectionTitle {
+    margin: 0px 0px 0px 10px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .scroll {
+    overflow-y: scroll;
+    padding-right: 0px;
+    height: 13px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+
+  .scroll::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+
+  .dropDown {
+    height: 14px;
+    position: absolute;
+    z-index: 90;
+
+  }
+
+  .downArrow {
+    height:13px;
+  }
+
+  .infoBlock {
+    width: 100%;
+    min-width: 300px;
+    max-width: 350px;
+    max-height: none;
+    border-radius: 0px;
+    border: none;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .navCont {
+    margin: 0px;
+    height: 60px;
+    min-width: 300px;
+    max-width: 350px;
+    z-index: 30;
+  }
+
+  .nav {
+    position: fixed;
+    min-width: 300px;
+    max-width: 350px;
+    width: calc(100% - 30px);
+    top: 15px;
+  }
+
+  .navBackground {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    background-color: #ebebebff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .expandable--hidden {
+    display: none;
+  }
+ 
+  .blockComponentCont {
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    min-width: 300px;
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .expandable {
+    color: #000;  
+    width: 100%; 
+  }
+
+  .schoolTitleClass {
+    font-size: 14px;
+  }
+
+  .aboutCardCont {
+    display: block;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px;
+  }
+
+  .essayContainer {
+    background-color: white;
+    height: fit-content;
+    border-radius: 8px;
+    padding: 7px 8px;
+    margin: 15px 0px;
+    border-right: solid white 2px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .essayTitle{
+    color: #309effff;
+    font-family: 'Didact Gothic';
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0px 5px;
+  }
+  
+  .essayDate {
+    width: fit-content;
+    color: #000000ff;
+    font-size: 13px;
+    margin: 4px 0px 0px 4px;
+    font-weight: 400;
+  }
+
+  
+  .essayTitleCont {
+    height: fit-content;
+    border-radius: 6px;
+    background-color: #ebf5fdff;
+    width: fit-content;
+  }
+
+  .schedule {
+    max-height: 100%;
+  }
+
+  .scroll {
+
+  }
+ 
+
+}

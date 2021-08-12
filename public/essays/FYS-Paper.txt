@@ -1,0 +1,59 @@
+Research has shown that the early stages of development are when the human brain is the most susceptible to change. At an early age the brain has a heightened ability to form new neural connections and abandon old ones. From around the age of 2 until the end of adolescence (around 22) there is a steady decline in the brain’s ability to change in significant ways (Sakai 16096-16099). Scientists do not have a complete understanding of brain development but research shows that this early period from childhood to the end of adolescence has a strong influence on brain functionality later in life. In some cases, certain external factors that are present during the early stages of brain development can even be linked to the onset of mental illnesses such as schizophrenia and depression. This research paper will summarize basic aspects of brain function and development, then examine the relationship between brain development and the onset of depression and schizophrenia. Although there are many possible factors associated with the development of these mental illnesses, recent evidence suggests that epigenetics could play a substantial role.
+
+
+Thought, behaviour and every other aspect of consciousness is directly related to the electrical signals being sent throughout certain cells in the nervous system. These cells, known as neurons, can be separated into 4 main components: dendrites, the cell body, the axon, and the axon terminals. 
+
+
+
+
+
+
+
+Communication between these components starts at the dendrites. Neurotransmitters from surrounding neurons are received by the dendrites and this creates electrical signals that are sent to the cell body. When the cell body of a neuron receives enough of these signals, in a short enough period of time, the cell “fires”. At this point the main electrical signal, called the action potential, is sent down the axon. The signal travels to the axon terminals at the end of the axon which triggers the release of neurotransmitters from the terminals. These neurotransmitters are received by the next dendrites and the same process happens for the next neuron. There are around 86 billion total neurons in the brain and this process could be occurring millions of times for even simple thoughts or actions. Each neuron can have over 100 dendrites and each dendrite can have multiple connections to the axon terminals of other neurons. This equates to hundreds of trillions of connections within the brain alone. These connections are referred to as synapses. The strengthening of mindsets, thoughts and memory can all be attributed to the strengthening of synapses. Synapses that are used more often get stronger and synapses that are not used are eventually eliminated. This ability of connections to change their strength is referred to as synaptic plasticity. 
+
+
+During brain development the synaptic plasticity of the brain, as well as the total amount of connections, is increased. Plasticity and neuron density levels peak at around 2 years old and then steadily decline until adulthood when they become more stagnant (Sakai 16096-16099). Before adulthood the brain has eliminated billions of neurons. The ones that survive this process are the ones that were used more often and these neural networks become less malleable as synapses strengthen and plasticity decreases leading up to adulthood. Myelination is another important process involved in brain development. This is when a layer of cells called the myelin sheath is forming around the axons of certain neurons. Myelin acts as an electrical insulator for the axons which makes signal transmission much more efficient for important neural pathways. Most myelination within the brain has occurred before the age of 2.
+
+
+One of the mechanisms of biology that has a strong influence on both early development and adult brain function is epigenetics. Within the nucleus of every cell, including neurons, there is a copy of a person's DNA. Segments of DNA strands, known as genes, are copied in the nucleus and this copy is then used to express certain proteins, or other gene products, depending on the gene. Epigenetics can regulate how much and whether some genes within a person’s DNA are expressed without changing the actual DNA. Both synaptic plasticity (Karpova et al. 793-771) and myelination (Berry et al. 10), among many other processes, are regulated by epigenetics. This highlights the importance of epigenetics as it relates to brain development. 
+
+
+These epigenetic processes can be influenced by certain stresses and external environmental factors which is part of the reason why this early environment is so important for brain development. Adverse childhood experiences (ACEs) in the form of abuse or neglect, and various other forms of stress at a young age can have extremely negative effects on a person’s development. Two examples of these negative effects are the onset of depression and schizophrenia. Studies have revealed that ACEs, leading to epigenetic changes of SLC6A4 (the gene responsible for serotonin transporter protein expression), has been linked to some of the worst depressive symptoms later in life (Lima-Ojeda et al. 356-349). The epigenetic effect that is occurring here is called hypermethylation. This means that a gene is not expressed as often as it would be typically and in this case that gene is important for serotonin transport (Provenzi et al. 20-7). Serotonin is the hormone thought to regulate anxiety, happiness and mood, which is the reason it is targeted in anti-depressant drugs called SSRIs (selective serotonin reuptake inhibitor).
+
+
+As for the onset of schizophrenia, there is still very little known of the effects that epigenetics has on the development of this illness and most studies do not come to a definitive conclusion. However, in a higher level correlation related to brain development, the onset of schizophrenia has still been associated with ACEs in more than one study. Some studies show evidence that ACEs can lead to a reduction in the brain’s grey matter volume and this reduction in grey matter has also been found to be a shared trait amongst people that have been diagnosed with schizophrenia (Poletti et al. 290-297). The exact causes of this mental illness remain largely unknown and, as a relatively nascent area of study, epigenetics could still prove to be a key contributor in future research.
+
+
+This paper has provided a simplified overview of important aspects of neuroscience and the neurobiology of brain development and has given two examples of development-related mental illnesses. Although the hypothesis that epigenetics could play a substantial role in both depression and schizophrenia has not yet been proven when it comes to schizophrenia, it is evident that ACEs during brain development can be considered as a contributing factor in the onset of both illnesses. It is also clear that early brain development has a strong influence on more permanent brain function later in life. With the widespread prevalence of mental illnesses such as depression in today’s society it is possible that an increased awareness of this science could encourage a positive change in parenting styles, resulting in a reduction of these illnesses in the future.
+
+
+
+
+
+
+
+<br></>
+<br></>
+<br></>
+References
+
+Bear, Mark F., et al. Neuroscience: Exploring the Brain. 4th ed., Philadelphia, PA: Lippincott Williams & Wilkins, 2016, pp. 24-177.
+
+Berry, Kalen, et al. “Epigenetic regulation of oligodendrocyte myelination in developmental disorders and neurodegenerative diseases.” F1000 Research, vol. 9, 2020, pp. 10. Medline, 10.12688/f1000research.20904.1.
+
+Gibb, Robbin, and Bryan Kolb. The Neurobiology of Brain and Behavioral Development. Academic Press, 2018, pp. 3-210.
+
+Karpova, Nina N., et al. “Epigenetic Basis of Neuronal and Synaptic Plasticity.” Bentham Science Publishers, vol. 17, no. 7, 2017, pp. 793-771. Ingenta Connect, www.ingentaconnect.com/contentone/ben/ctmc/2017/00000017/00000007/art00003.
+
+Lima-Ojeda, Juan M., et al. "Neurobiology of depression: A neurodevelopmental approach." World Journal of Biological Psychiatry, vol. 19, no. 5, 2018, pp. 356-349. Academic Search Complete, 10.1080/15622975.2017.1289240.
+
+Lohmann, Christian, and Helmut W. Kessels. “The developmental stages of synaptic plasticity.” The Journal of Physiology, vol. 592, no. 1, 2013, pp. 23-13. Journals@OVID, doi:10.1113/jphysiol.2012.235119.
+
+Nelson, Charles A, and Monica L. Collins. “Myelination in the Developing Human Brain.” Handbook of Developmental Cognitive Neuroscience. Cambridge, Mass: MIT Press, 2008, pp. 35-37. 
+
+Poletti, Sara, et al. “Adverse childhood experiences influence the detrimental effect of bipolar disorder and schizophrenia on cortico-limbic grey matter volumes.” The Journal of Affective Disorders, vol. 189, no. 1, 2016, pp. 297-290. ScienceDirect, doi:10.1016/j.jad.2015.09.049.
+
+Provenzi, Livio, et al. “SLC6A4 methylation as an epigenetic marker of life adversity exposures in humans: A systematic review of literature.” Neuroscience & Biobehavioral Reviews, vol. 71, 2016, pp. 20-7. ScienceDirect, 10.1016/j.neubiorev.2016.08.021.
+
+Sakai, Jill. “Core Concept: How synaptic pruning shapes neural wiring during development and, possibly, in disease.” National Academy of Science, vol. 117, no. 28, 2020, pp. 16096-16099. Medline, 10.1073/pnas.2010281117.
+
